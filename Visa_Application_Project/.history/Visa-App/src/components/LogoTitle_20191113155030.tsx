@@ -1,0 +1,26 @@
+import React, { Component } from "react";
+import Logo from "./assets/Edubao_logo";
+import { StyleSheet, View, Text, Image } from "react-native";
+
+export default class LogoTitle extends Component {
+	render() {
+		return (
+			<View style={{ flexDirection: "row" }}>
+				<Image style={}>
+					source={					
+						require('..assets/Edubao_logo.PNG')
+					}
+					
+				</>
+			</View>
+		);
+	}
+}
+const styles = StyleSheet.create({
+	logo:{
+		width: 40,
+		height: 40,
+		borderRadius: 40 / 2,
+		marginLeft: 15
+	},
+});
